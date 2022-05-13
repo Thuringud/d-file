@@ -1,0 +1,42 @@
+@import 'normalize';
+@import 'variables';
+@import 'extensions';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+* { 
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+a { 
+  text-decoration: none;
+  color: $text-color;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+button {
+  border: none;
+}
+
+.right-16 {
+  margin-right: 16px;
+}
+
+.left-16 {
+  margin-left: 16px;
+}
+
+::placeholder, input {
+  color: $main-color;
+  font-size: 12px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+}
