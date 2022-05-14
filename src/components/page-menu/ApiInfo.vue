@@ -1,19 +1,17 @@
 <template>
   <div class="page-menu__api-info">
     <user-location />
-    <eth-price />
-    <btc-price />
+    <crypto-price />
   </div>
 </template>
 
 <script>
 import UserLocation from "./UserLocation";
-import EthPrice from "./EthPrice";
-import BtcPrice from "./BtcPrice";
+import CryptoPrice from "./CryptoPrice";
 
 export default {
   name: "api-info",
-  components: { UserLocation, EthPrice, BtcPrice },
+  components: { UserLocation, CryptoPrice },
 };
 </script>
 
